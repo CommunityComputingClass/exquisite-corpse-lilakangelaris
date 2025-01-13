@@ -2,7 +2,6 @@ function setup() {
     createCanvas(600, 600);
    background("pink")
     eyes(200,200);
-   
  }
  
  function draw() {
