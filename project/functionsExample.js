@@ -24,3 +24,20 @@ function setup() {
     fill("white")
      rect(x+190, y-10, 10, 10);
  }
+ function setup() {
+  createCanvas(600,900);
+eye();
+ }
+
+ function draw (){
+ }
+
+ function eye(){
+  fill("white")
+  ellipse(100,100,80,50);
+  fill("black")
+  ellipse(95,100,30,30)
+  fill("white")
+  rect(90,90,10,10);
+
+ }
